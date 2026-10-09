@@ -1,0 +1,49 @@
+/* 1. Bordes y fondo general de la tabla */
+.table-view {
+    -fx-background-color: transparent;
+    -fx-border-color: #d1d5db;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+}
+
+
+.table-view .column-header-background {
+    -fx-background-color: #64B5F6;
+    -fx-background-radius: 8px 8px 0 0;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: transparent;
+    -fx-size: 45px;
+    -fx-border-color: transparent #4FC3F7 transparent transparent;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 14px;
+}
+
+
+.table-row-cell {
+    -fx-cell-size: 38px;
+    -fx-background-color: white;
+    -fx-border-color: transparent transparent #f3f4f6 transparent;
+    -fx-text-fill: #374151;
+}
+
+
+.table-row-cell:odd {
+    -fx-background-color: #f9fafb;
+}
+
+
+.table-row-cell:hover {
+    -fx-background-color: #e0f2fe;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #0284c7;
+    -fx-text-background-color: white;
+}
